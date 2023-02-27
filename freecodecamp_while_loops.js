@@ -33,16 +33,36 @@ for ( let i = 1; i <= 5; i++) {
 
 //task: Push the odd numbers from 1 through 9 to myArray using a for loop. [1,3,5,7,9]
 
-const myArray = [];
+/*const myArray = [];
 for (let i = 1; i <= 9; i+=2) {
   myArray.push(i);
-}
+}*/
 
 //Push the odd numbers from 9 through 1 to myArray using a for loop. [9,7,5,3,1]
 
-const myArray = [];
+/*const myArray = [];
 for ( let i = 9; i >= 1; i-=2) {
   myArray.push(i);
+}*/
+
+/*const arr = [10,9,8,7,6];
+ for (let i = 0; i < arr.lenght; i++) {
+  console.log(arr[i]);
+ }
+*/
+
+//Declare and initialize a variable total to 0. Use a for loop to add the value of each element of the myArr array to total.
+
+const myArr = [2, 3, 4, 5, 6];
+
+// Only change code below this line
+let total = 0;
+
+for (let i = 0; i < myArr.length; i++) {
+
+  total += myArr[i];
+
+   console.log(myArr[i]);
 }
 
 
