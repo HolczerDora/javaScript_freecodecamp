@@ -53,7 +53,7 @@ for ( let i = 9; i >= 1; i-=2) {
 
 //Declare and initialize a variable total to 0. Use a for loop to add the value of each element of the myArr array to total.
 
-const myArr = [2, 3, 4, 5, 6];
+/* const myArr = [2, 3, 4, 5, 6];
 
 // Only change code below this line
 let total = 0;
@@ -64,5 +64,15 @@ for (let i = 0; i < myArr.length; i++) {
 
    console.log(myArr[i]);
 }
+*/
 
-
+const arr = [
+  [ 1, 2 ],
+  [ 3, 4 ],
+  [ 5, 6 ]
+];
+for ( let i = 0; i < arr.length; i++) {
+  for ( let j = 0; j < arr[i].length; j++) {
+    console.log( arr[i][j]);
+  }
+}
