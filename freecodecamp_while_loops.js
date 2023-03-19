@@ -84,8 +84,8 @@ function multiplyAll(arr) {
   var product = 1;
   for (let i = 0; i < arr.length; i++) {
       for ( let j = 0; j < arr[i].length; j++) {
-         console.log(arr[i][j]) 
-         product = product *= arr[i][j];
+         
+        product *= arr[i][j];
           
       }
   }
@@ -95,3 +95,4 @@ function multiplyAll(arr) {
 }
 
 multiplyAll([[1, 2],[3, 4],[5, 6]]); 
+console.log(product);
